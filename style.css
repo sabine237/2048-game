@@ -1,0 +1,73 @@
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    background-color: #04a0dd;
+  }
+
+  .tile {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #93fff6;
+  }
+
+  .tile-2 {
+    background-color: #eee4da;
+    color: #776e65;
+  }
+
+  .tile-4 {
+    background-color: #eee1c9;
+    color: #776e65;
+  }
+
+  .tile-8 {
+    background-color: #f3b27a;
+    color: white;
+  }
+
+  .tile-16 {
+    background-color: #f69664;
+    color: white;
+  }
+
+  .tile-32 {
+    background-color: #f77c5f;
+    color: white;
+  }
+
+  .tile-64 {
+    background-color: #e64c2e;
+    color: white;
+  }
+
+  .tile-128 {
+    background-color: #edd073;
+    color: #776e65;
+  }
+
+  .tile-256 {
+    background-color: #edcc62;
+    color: #776e65;
+  }
+
+  .tile-512 {
+    background-color: #edc950;
+    color: #776e65;
+  }
+
+  .tile-1024 {
+    background-color: #edc53f;
+    color: #776e65;
+  }
+
+  .tile-2048 {
+    background-color: #edc22e;
+    color: #776e65;
+  }
